@@ -11,7 +11,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 {
 	if (!tree)
 		return (0);
-	binary_tree_height_rec(tree);
+	return (binary_tree_height_rec(tree));
 }
 
 /**
