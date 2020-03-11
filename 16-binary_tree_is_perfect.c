@@ -28,6 +28,8 @@ int find_a_debth(const binary_tree_t *tree)
  */
 int binary_tree_is_perfect_rec(const binary_tree_t *tree, int debth, int level)
 {
+	int l;
+
 	if (!tree)
 		return (0);
 	if (tree->left == NULL && tree->right == NULL)
@@ -37,7 +39,7 @@ int binary_tree_is_perfect_rec(const binary_tree_t *tree, int debth, int level)
 		else
 			return (1);
 	}
-	int l = 0;
+	l = 0;
 
 	l = l + binary_tree_is_perfect_rec(tree->left, debth, level + 1);
 	l = l + binary_tree_is_perfect_rec(tree->right, debth, level + 1);
