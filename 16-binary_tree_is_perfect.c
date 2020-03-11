@@ -23,6 +23,8 @@ int find_a_debth(const binary_tree_t *tree)
  * binary_tree_is_perfect_rec - Entry point
  *
  * @tree: tree
+ * @debth: debth
+ * @level: level
  *
  * Return: Always 0 (Success)
  */
