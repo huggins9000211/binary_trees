@@ -1,6 +1,5 @@
 #include "binary_trees.h"
-#include "12-leaves"
-#include "13-nodes"
+#include "13-binary_tree_nodes.c"
 
 /**
  * binary_tree_is_full - Entry point
